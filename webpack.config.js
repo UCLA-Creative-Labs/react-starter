@@ -21,7 +21,7 @@ const createConfig = () => {
       rules: [
         // babel-loader takes ES6 code and makes it understandable to browsers
         {
-          test: /\.js$/,
+          test: /\.(js$|jsx$)/,
           exclude: /node_modules/,
           use: "babel-loader"
         },

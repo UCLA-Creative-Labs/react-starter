@@ -9,7 +9,8 @@ const createConfig = api => {
           loose: true,
           useBuiltIns: false
         }
-      ]
+      ],
+      "@emotion/babel-preset-css-prop"
     ],
     plugins: [
       ["@babel/plugin-transform-react-jsx"],
